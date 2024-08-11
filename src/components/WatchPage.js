@@ -31,9 +31,6 @@ const WatchPage = () => {
         <button className='mx-3 bg-gray-300 py-2 px-3 font-bold rounded-3xl'>...</button>
         </div>
         </div>
-        <div className='m-3 p-2 w-[20rem] h-[44rem] shadow-lg bg-gray-200 overflow-hidden'>
-          <VideoContainer/>
-          </div>
         
     </div>
     <div className='bg-gray-400 rounded-lg w-[62rem] my-4 mx-9 opacity-70'>

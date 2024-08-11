@@ -19,7 +19,7 @@ const ButtonList = () => {
      <Button name='Travel'/>
      <Button name='Comedy'/>
      <Button name='Music'/>
-     <Button name='Hip-Hop'/>
+     <Button name='Song'/>
      <Button name='Dance'/> 
     </div>
   )

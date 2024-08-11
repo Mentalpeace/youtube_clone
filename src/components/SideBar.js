@@ -6,7 +6,7 @@ const SideBar = () => {
   const isMenuOpen = useSelector(store => store.app.isMenuOpen);
   if (!isMenuOpen) return null;
   return (
-    <div className='shadow-xl w-[15vw] mx-3 mt-[68px] p-3 cursor-pointer'>
+    <div className='shadow-xl w-[17vw] mx-3 mt-[68px] p-3 cursor-pointer'>
       <ul>
         <li className='font-bold p-1 hover:bg-gray-200 rounded-xl' >
         <Link to="/"> Home </Link>
