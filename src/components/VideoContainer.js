@@ -17,7 +17,7 @@ const VideoContainer = () => {
   };
 
   return (
-    <div className='flex flex-wrap w-[83vw] '>
+    <div className='flex flex-wrap w-[83vw]'>
       <ButtonList/>
      {videos.map((video)=> (
       <Link key={video.id}  to= {"/watch?v="+ video.id }> 
