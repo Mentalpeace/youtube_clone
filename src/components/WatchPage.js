@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import { closeMenu } from '../utils/appSlice';
 import { useSearchParams } from 'react-router-dom';
-import VideoContainer from './VideoContainer';
+
 
 const WatchPage = () => {
     const [searchParams]= useSearchParams();
